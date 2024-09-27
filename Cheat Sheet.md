@@ -99,6 +99,38 @@ ollama show mistral
 
 
 
+## How to Run Ollama Open-Webui without Docker?
+
+❖ First We Need to Install Python 3.11 Via `pyenv` To Make Sure There's No Compatibility Issues. 
+
+```
+pyenv install 3.11
+```
+
+❖ Then Make It Global via This Command: 
+
+```
+pyenv global 3.11
+```
+
+❖ Next We'll Install Open-Webui Through Pip Using the Following Command: 
+
+```
+pip install open-webui
+```
+
+❖ This Step Will Take some Time so Be Patient. 
+
+❖ **Running Open WebUI**: After installation, you can start Open WebUI by executing:
+
+```
+open-webui serve
+```
+
+This will start the Open WebUI server, which you can access at [http://localhost:8080](http://localhost:8080/)
+
+
+
 ## Github Reference
 
 https://github.com/ollama/ollama
