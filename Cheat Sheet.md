@@ -121,6 +121,19 @@ pip install open-webui
 
 ❖ This Step Will Take some Time so Be Patient. 
 
+❖ Before Running Open-Webui We Need to Add `Environment Variable` To Our `ZSHRC` File to Disable Authentication of open-webui; This Environment Variable Is `WEBUI_AUTH` ; To Do so Open `ZSHRC` File and Paste This Line: 
+
+```
+# Disabling Authentication for Open Web-Ui
+export WEBUI_AUTH=False
+```
+
+❖ Now Source The `ZSHRC` File for Changes to Take Effect. 
+
+❖ You Can Find More `Environment Variables` In This Github Reference 
+
+https://docs.openwebui.com/getting-started/env-configuration#webui_auth
+
 ❖ **Running Open WebUI**: After installation, you can start Open WebUI by executing:
 
 ```
